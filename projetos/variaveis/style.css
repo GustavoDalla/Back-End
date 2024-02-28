@@ -1,0 +1,9 @@
+body{
+    background-image: url(php.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
