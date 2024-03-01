@@ -1,0 +1,88 @@
+body{
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    text-align: center;
+}
+fieldset{
+    backdrop-filter: blur(10px);
+    border-radius: 10px 0px 10px 0px;
+    width: 30%;
+    height: 600px;
+    margin: auto;
+    border-color: black;
+    border-style: groove;
+    border-width: 5px;
+    box-shadow: 0px 5px 50px 10px rgba(255, 255, 255, 0.262);
+}
+legend{
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@font-face {
+    font-family: fonte;
+    src: url(../fontes/LEMONMILK-Medium.otf);
+}
+p{
+    font-family: fonte;
+    font-size: xx-large;
+    text-align: center;
+}
+input{
+    border-radius: 30px;
+    height: 40px;
+    width: 60%;
+    background-color: #2f3640;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin: 25px;
+    text-align: center;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378);
+}
+input:hover{
+    border-radius: 28px;
+    background-color: #2f3640de;
+
+}
+.botao{
+    margin-top: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    line-height: 2em;
+    text-align: center;
+    border: none;
+    background-image: linear-gradient(90deg, #ff6b40, #cc2a3f, #820233, #31142e);
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+}
+button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #2e102b;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
